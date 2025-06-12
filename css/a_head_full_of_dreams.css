@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'dreams';
+    src: url(../fonts/mrs-eaves-bold_freefontdownload_org/mrs-eaves-bold.ttf);
+}
+
+.dreams {
+    background: url(../img/kaleidoscope16_9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'dreams';
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.dreams-album {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dreams-div-img {
+    width: 400px;
+    height: 400px;
+}
+
+.dreams-img {
+    width: 100%;
+    height: 100%;
+}
+
+.dreams-song {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+}
+
+.dreams-portada {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+.dreams-h2 {
+    font-size: 50px;
+}
+
+.dreams-date {
+    text-align: center;
+    font-size: 30px;
+}
+
+.dreams-list {
+    font-size: 25px;
+}
+
+.dreams-list ul {
+    list-style-type: decimal-leading-zero;
+}
+
+@media (max-width: 820px) {
+    .dreams {
+        background: url(../img/kaleidoscope_phone.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        flex-direction: column;
+    }
+
+    .dreams-album {
+        height: 40%;
+    }
+
+    .dreams-div-img {
+        width: 210px;
+        height: 210px;
+    }
+
+    .dreams-h2 {
+        font-size: 20px;
+    }
+
+    .dreams-list {
+        font-size: 17px;
+    }
+
+    .dreams-date {
+        font-size: 20px;
+    }
+}

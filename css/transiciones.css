@@ -1,0 +1,270 @@
+.transition-start{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.div-transition-start {
+    width: 100%;
+}
+
+.img-start {
+    width: 100%;
+    height: 150%;
+    object-fit: cover;
+    display: block;
+
+    /* Máscara de opacidad para que la imagen se desvanezca abajo */
+    -webkit-mask-image: linear-gradient(to top, transparent 0%, black 50%, black 100%);
+    mask-image: linear-gradient(to top, transparent 0%, black 50%, black 100%);
+    
+}
+
+
+.transition {
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(to bottom, #138ED1, #013759);
+}
+
+.transition2 {
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(to bottom, #013759, #070403);
+}
+
+
+.transition3 {
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(to bottom, #070403, #C95917);
+}
+
+
+
+
+
+
+.transition4 {
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(to bottom, #C95917, #DCD9D2);
+}
+
+
+.transition4-1 {
+    height: 500px;
+    background-color: #C95917;
+}
+
+
+/* Coldplay 1 */
+.between-par-2002 {
+    display: flex;
+    justify-content: center;
+    background-color: #DCD9D2;
+}
+
+.between-par-2002-img {
+    width: 60%;
+    height: 60%;
+}
+/* Coldplay 1 */
+
+
+.transition6 {
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(to bottom, #DCD9D2, #FEFEFD);
+}
+
+
+
+
+
+.transition7 {
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(to bottom, #FEFEFD, #00293F);
+}
+
+.transition8 {
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(to bottom, #00293F, #094943);
+}
+
+.transition9 {
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(to bottom, #094943, #007336);
+}
+
+
+
+
+
+.transition10 {
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(to bottom, #007336, #432F21);
+}
+
+.transition11 {
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(to bottom, #432F21, #322C22);
+}
+
+.transition12 {
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(to bottom, #322C22, #322C22);
+}
+
+
+
+
+
+.transition13 {
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(to bottom, #322C22, #821730);
+}
+
+.transition14 {
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(to bottom, #821730  , #D95374);
+}
+
+.transition15 {
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(to bottom, #D95374, #C9C8C9);
+}
+
+
+
+
+
+
+
+.transition16 {
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(to bottom, #C9C8C9, #587387);
+}
+
+
+.transition17 {
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(to bottom, #587387, #0A3757);
+}
+
+
+.transition18 {
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(to bottom, #0A3757, #001933);
+}
+
+
+
+
+
+
+.transition19 {
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(to bottom, #001933, #001933);
+}
+
+
+.transition20 {
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(to bottom, #001933 ,#2863CB);
+}
+
+
+.transition21 {
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(to bottom, #2863CB, #CD4643);
+}
+
+
+
+
+
+
+
+.transition22 {
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(to bottom, #CD4643, #ADAAAB);
+}
+
+
+.transition23 {
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(to bottom, #ADAAAB, #2C2A2A);
+}
+
+
+.transition24 {
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(to bottom, #2C2A2A, #434141);
+}
+
+
+
+
+
+
+
+.transition25 {
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(to bottom, #434141, #111115);
+}
+
+.transition26 {
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(to bottom, #111115, #5676A1);
+}
+
+.transition27 {
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(to bottom, #5676A1, #D331AF);
+}
+
+
+
+
+
+
+
+.transition28 {
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(to bottom, #D331AF, #f88666);
+}
+
+.transition29 {
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(to bottom, #f88666, #013759);
+}
+
+.transition30 {
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(to bottom, #013759, #4e88b3);
+}
