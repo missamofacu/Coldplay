@@ -16,12 +16,13 @@ body {
     font-family: 'Montserrat';
     font-style: italic;
     /* El primero: background-color: #296088; */
-    background: linear-gradient(to right, #1085CA, #138ED1);
-
+    /* background: linear-gradient(to right, #1085CA, #138ED1); */
+    background: url(../img/Moon_Music_wallpaper.png);
+    background-repeat: no-repeat;
 }
 
 .boton {
-    background-color: rgb(65, 65, 9);
+    background-color: transparent;
     border-radius: 50%;
     position: fixed;
     bottom: 20px; /* Distancia desde el borde inferior */
@@ -174,6 +175,12 @@ body {
 
 
 @media (max-width: 820px) {
+
+    body {
+        background: url(../img/Moon_Music_wallpaper_phone.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
 
     .main {
         flex-direction: column;
